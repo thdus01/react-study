@@ -1,8 +1,13 @@
-.App {
-  text-align: center;
+
+.App-body {
+  /* text-align: center; */
+  height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
+
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +40,16 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.header1 {
+  background-color: black;
+  color: yellow;
+  text-align: center;
 }
+
+.test1 {
+  color: blue;
+}
+
+

@@ -1,0 +1,6 @@
+.todo-item {
+    border: 2px dotted blue;
+    width: 300px;
+    height: 70px;
+    background-color: cyan;
+}

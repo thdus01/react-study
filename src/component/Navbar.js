@@ -31,6 +31,7 @@ const drawerWidth = 240;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
+    
     flexGrow: 1,
     padding: theme.spacing(3),
     transition: theme.transitions.create('margin', {
@@ -49,8 +50,10 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
 );
 
 const AppBar = styled(MuiAppBar, {
-  shouldForwardProp: (prop) => prop !== 'open',
+ 
+  shouldForwardProp: (prop) => prop !== 'open'
 })(({ theme, open }) => ({
+  
   transition: theme.transitions.create(['margin', 'width'], {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -89,7 +92,7 @@ function Navbar(props) {
     return(
         <>
         <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={open} color="info">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -189,6 +192,41 @@ function Navbar(props) {
           <li>
             <ListItemButton>
               <Link to="/Week7">Week7</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week8">Week8</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week9">Week9</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week10">Week10</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week11">Week11</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week12">Week12</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week13">Week13</Link>
+            </ListItemButton>
+          </li>
+          <li>
+            <ListItemButton>
+              <Link to="/Week14">Week14</Link>
             </ListItemButton>
           </li>
         </ul>

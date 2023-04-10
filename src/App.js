@@ -19,41 +19,14 @@ import Week4 from './component/Week4';
 import Week5 from './component/Week5';
 import Week6 from './component/Week6';
 import Week7 from './component/Week7';
+import Week8 from './component/Week8';
+import Week9 from './component/Week9';
+import Week10 from './component/Week10';
+import Week11 from './component/Week11';
+import Week12 from './component/Week12';
+import Week13 from './component/Week13';
+import Week14 from './component/Week14';
 
-// function Header() {
-//   return (
-//     <>
-//     <header>
-//       <h1><a href='/'>WEB</a></h1>
-//     </header>
-//     </>
-//   );
-// }
-
-// function Nav() {
-//   return (
-//     <>
-//     <nav>
-//     <ol>
-//       <li><a href='/rr/1'/>HTML</li>
-//       <li><a href='/rr/2'/>CSS</li>
-//       <li><a href='/rr/3'/>JAVASCRIPT</li>
-//     </ol>
-//     </nav>
-//     </>
-//   );
-// }
-
-// function Article() {
-//   return(
-//     <>
-//       <article>
-//         <h2>환영!</h2>
-//         Hello WEB programming
-//       </article>
-//     </>
-//   );
-// }
 
 function App(props) {
 
@@ -128,6 +101,9 @@ const cc = () => {
           <Route path='/Week5' element={<Week5 />}/>
           <Route path='/Week6' element={<Week6 />}/>
           <Route path='/Week7' element={<Week7 />}/>
+          <Route path='/Week8' element={<Week8 />}/>
+          <Route path='/Week9' element={<Week9 />}/>
+          <Route path='/Week10' element={<Week10 />} />
       </Routes>
 
     </div>
